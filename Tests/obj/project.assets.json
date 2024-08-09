@@ -1808,6 +1808,16 @@
         "build": {
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.dll": {}
+        }
       }
     }
   },
@@ -6103,10 +6113,16 @@
         "xunit.runner.visualstudio.2.4.5.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Application/1.0.0": {
+      "type": "project",
+      "path": "../Application/Application.csproj",
+      "msbuildProject": "../Application/Application.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Application >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
       "coverlet.collector >= 3.1.2",
       "xunit >= 2.4.2",
@@ -6140,7 +6156,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\HP\\source\\repos\\HotelBookigSystem\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\HP\\source\\repos\\HotelBookigSystem\\Application\\Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
