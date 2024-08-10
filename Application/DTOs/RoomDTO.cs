@@ -8,7 +8,6 @@ namespace Application.DTOs
 {
     public class RoomDTO
     {
-        public int Id { get; set; }
         public string RoomType { get; set; }
         public decimal BasePrice { get; set; }
         public decimal adjustedPrice { get; set; }

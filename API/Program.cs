@@ -1,22 +1,26 @@
 using Application.Interfaces;
 using Application.Services;
-using System.Data.Common;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddSingleton<IRoomService, RoomService>();
 
+// Register services
+builder.Services.AddSingleton<IRoomService, RoomService>();
+builder.Services.AddHttpClient();
+builder.Services.AddSingleton<MockDataService>();
+
+// Configure CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin",
-    builder =>
-    {
+        builder =>
+        {
             builder.WithOrigins("http://localhost:4200")
                 .AllowAnyHeader()
                 .AllowAnyMethod();
@@ -34,10 +38,11 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+// Apply CORS policy
+app.UseCors("AllowSpecificOrigin");
+
 app.UseAuthorization();
 
 app.MapControllers();
-
-app.UseCors("AllowSpecificOrigin");
 
 app.Run();
