@@ -1,0 +1,15 @@
+C:\Users\HP\source\repos\HotelBookigSystem\RoomAllocationLogic\bin\Debug\net6.0\RoomAllocationLogic.deps.json
+C:\Users\HP\source\repos\HotelBookigSystem\RoomAllocationLogic\bin\Debug\net6.0\RoomAllocationLogic.dll
+C:\Users\HP\source\repos\HotelBookigSystem\RoomAllocationLogic\bin\Debug\net6.0\RoomAllocationLogic.pdb
+C:\Users\HP\source\repos\HotelBookigSystem\RoomAllocationLogic\bin\Debug\net6.0\Application.dll
+C:\Users\HP\source\repos\HotelBookigSystem\RoomAllocationLogic\bin\Debug\net6.0\Application.pdb
+C:\Users\HP\source\repos\HotelBookigSystem\RoomAllocationLogic\obj\Debug\net6.0\RoomAllocationLogic.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\HotelBookigSystem\RoomAllocationLogic\obj\Debug\net6.0\RoomAllocationLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\HotelBookigSystem\RoomAllocationLogic\obj\Debug\net6.0\RoomAllocationLogic.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\HotelBookigSystem\RoomAllocationLogic\obj\Debug\net6.0\RoomAllocationLogic.AssemblyInfo.cs
+C:\Users\HP\source\repos\HotelBookigSystem\RoomAllocationLogic\obj\Debug\net6.0\RoomAllocationLogic.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\HotelBookigSystem\RoomAllocationLogic\obj\Debug\net6.0\RoomAllocationLogic.csproj.CopyComplete
+C:\Users\HP\source\repos\HotelBookigSystem\RoomAllocationLogic\obj\Debug\net6.0\RoomAllocationLogic.dll
+C:\Users\HP\source\repos\HotelBookigSystem\RoomAllocationLogic\obj\Debug\net6.0\refint\RoomAllocationLogic.dll
+C:\Users\HP\source\repos\HotelBookigSystem\RoomAllocationLogic\obj\Debug\net6.0\RoomAllocationLogic.pdb
+C:\Users\HP\source\repos\HotelBookigSystem\RoomAllocationLogic\obj\Debug\net6.0\ref\RoomAllocationLogic.dll

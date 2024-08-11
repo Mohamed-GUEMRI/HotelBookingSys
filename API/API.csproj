@@ -12,6 +12,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Application\Application.csproj" />
+    <ProjectReference Include="..\BookingProcess\BookingProcess.csproj" />
+    <ProjectReference Include="..\RoomAllocationLogic\RoomAllocationLogic.csproj" />
   </ItemGroup>
 
 </Project>

@@ -9,6 +9,8 @@
       "API/1.0.0": {
         "dependencies": {
           "Application": "1.0.0",
+          "BookingProcess": "1.0.0",
+          "RoomAllocationLogic": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -508,6 +510,22 @@
         "runtime": {
           "Application.dll": {}
         }
+      },
+      "BookingProcess/1.0.0": {
+        "dependencies": {
+          "RoomAllocationLogic": "1.0.0"
+        },
+        "runtime": {
+          "BookingProcess.dll": {}
+        }
+      },
+      "RoomAllocationLogic/1.0.0": {
+        "dependencies": {
+          "Application": "1.0.0"
+        },
+        "runtime": {
+          "RoomAllocationLogic.dll": {}
+        }
       }
     }
   },
@@ -875,6 +893,16 @@
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
     },
     "Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BookingProcess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RoomAllocationLogic/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,5 +1,7 @@
 using Application.Interfaces;
 using Application.Services;
+using BookingProcess.Services;
+using RoomAllocationLogic.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,9 +13,12 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Register services
+
+builder.Services.AddSingleton<MockDataService>();
+builder.Services.AddScoped<RoomAllocationService>();
+builder.Services.AddScoped<BookingService>();
 builder.Services.AddSingleton<IRoomService, RoomService>();
 builder.Services.AddHttpClient();
-builder.Services.AddSingleton<MockDataService>();
 
 // Configure CORS
 builder.Services.AddCors(options =>
@@ -40,6 +45,8 @@ app.UseHttpsRedirection();
 
 // Apply CORS policy
 app.UseCors("AllowSpecificOrigin");
+
+app.UseRouting();
 
 app.UseAuthorization();
 

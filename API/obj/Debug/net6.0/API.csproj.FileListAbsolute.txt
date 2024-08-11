@@ -41,3 +41,7 @@ C:\Users\HP\source\repos\HotelBookigSystem\API\bin\Debug\net6.0\Microsoft.Extens
 C:\Users\HP\source\repos\HotelBookigSystem\API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\HP\source\repos\HotelBookigSystem\API\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
 C:\Users\HP\source\repos\HotelBookigSystem\API\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\HP\source\repos\HotelBookigSystem\API\bin\Debug\net6.0\RoomAllocationLogic.dll
+C:\Users\HP\source\repos\HotelBookigSystem\API\bin\Debug\net6.0\RoomAllocationLogic.pdb
+C:\Users\HP\source\repos\HotelBookigSystem\API\bin\Debug\net6.0\BookingProcess.dll
+C:\Users\HP\source\repos\HotelBookigSystem\API\bin\Debug\net6.0\BookingProcess.pdb
